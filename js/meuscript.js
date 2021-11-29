@@ -6,15 +6,17 @@ botao.onclick = function(){
 	if(conteudo.className == "open")
 		conteudo.className = "";
 
-}
-
-else{
+	else{
 
 conteudo.className = "open";
-botao.innerHTML = "mostrar_Menos";
+botao.innerHTML = "Mostrar_Menos";
 
 
 }
+
+
+}
+
 
 
 
